@@ -13,5 +13,11 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-  }
+  },
+  overrides: [
+    {
+      files: ["*.vue"],
+      processor: "vue/.vue"
+    }
+  ]
 }
